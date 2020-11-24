@@ -1,0 +1,15 @@
+tài khoản admin : (idadmin, usename, password, hoten);
+
+tài khoản user : (iduser, hoten, email, sdt, diachi, usename, password, trạng thái);
+
+nhà cung cấp : (idncc, tenncc, sdt, diachi, trạng thái);
+
+loại sản phẩm : (idloaisp, tenloaisp, trạng thái);
+
+sản phẩm : (idsp, tensp, ảnh, giá, donvitinh, soluongton, idncc, idloaisp, mota, trangthai );
+
+hóa đơn : (idhd, ngaylaphd, tongtien, idkh, diachi, sdt, trạng thái);
+
+chi tiết hóa đơn : (idcthd, soluong, tongtien, idhd, idsp, trạng thái);
+
+bình luận: (idbinhluan, anh, ten, noidung, ngay, ipsp);
